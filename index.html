@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Lúmina</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1>Registro Lúmina</h1>
+
+        <p>Completa tus datos para recibir tu bono de bienvenida.</p>
+
+        <form id="formulario">
+
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre">
+
+            <label for="usuario">Usuario</label>
+            <input type="text" id="usuario">
+
+            <label for="contrasena">Contraseña</label>
+            <input type="password" id="contrasena">
+
+            <label for="residencia">Lugar de residencia</label>
+            <input type="text" id="residencia">
+
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono">
+
+            <label for="edad">Edad</label>
+            <input type="number" id="edad">
+
+            <button type="button" onclick="darBono()">
+                Registrarme
+            </button>
+
+        </form>
+
+        <p id="mensaje"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
